@@ -18,7 +18,7 @@ def train_model(model, X, X_test, Y, Y_test):
 
     model.fit(X, Y, batch_size=batch_size, epochs=epochs, validation_data=(X_test, Y_test), shuffle=True, callbacks=checkpoints)
 
-    return model
+    return model1
 
 def main():
     X, X_test, Y, Y_test = get_dataset()
